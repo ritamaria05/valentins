@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+    <head>
+        <title> ly </title>
+        <style>
+          body {
+            background-image: url('meuFundo.png'); /* Caminho para sua imagem */
+            background-repeat: no-repeat;          /* Impede que a imagem se repita */
+            background-size: cover;                /* Faz com que a imagem cubra toda a tela */
+          }
+      </style>
+      <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body class="dunno">
+
+        <h2>Aceitas ser o meu Valentim?</h2>
+      <div class="container">
+        <button id="SIM">Sim!!</button>
+
+        <script>
+            document.getElementById('SIM').addEventListener('click', function() {
+              window.location.href = 'yesPage.html';
+            });
+          </script>
+
+        <button id="NAO">Não.</button>
+      </div>
+        <script>
+            document.getElementById('NAO').addEventListener('click', function() {
+              window.location.href = 'noPage.html';
+            });
+          </script>
+
+       
+    </body>
+    <footer>Da tua princesa, Rita </footer>
+</html>
